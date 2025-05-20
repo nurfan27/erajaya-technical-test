@@ -10,29 +10,26 @@
 ## 🧩 Soal SQL
 
 Soal 1: Query Dasar \
-Tampilkan 10 user terbaru yang pernah membuat order.\
-Kolom: user_id, name, email, total_orders, last_order_date\
-Urutkan berdasarkan last_order_date terbaru.
-
+Tampilkan 5 user terbaru.\
+Kolom: user_id, name, email, register_at\
+Urutkan berdasarkan register_at terbaru.
 ---
 
-Soal 2: Aggregasi & Grouping \
-Hitung total penjualan (total_amount) per status order (completed, pending, cancelled).\
-Kolom: status, total_sales
-
+Soal 2: Join \
+Tampilkan 5 transaksi terbaru.\
+Kolom: order_id, customer_name, total_amount, status, transaction_date
+Urutkan berdasarkan transaksi terbaru.
 ---
 
-Soal 3: JOIN & Performa \
-Tampilkan 5 produk terlaris berdasarkan total quantity terjual (hanya dari order yang completed).\
-Kolom: product_name, total_quantity\
-Urutkan dari yang paling banyak.
-
----
-
-Soal 4: Subquery \
+Soal 3: Join \
 Tampilkan user yang belum pernah membuat order.\
 Kolom: id, name, email
+---
 
+Soal 4: Aggregasi \
+Tampilkan 5 produk terlaris berdasarkan total quantity terjual.\
+Kolom: product_name, total_quantity\
+Urutkan dari yang paling banyak.
 ---
 
 Soal 5 (Bonus): Nested Aggregation \
