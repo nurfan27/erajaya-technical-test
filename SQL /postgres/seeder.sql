@@ -25,6 +25,7 @@ INSERT INTO orders (user_id, total_amount, status, created_at) VALUES
 (7, 90.00, 'cancelled', NOW() - INTERVAL '1 day'),
 (8, 170.00, 'completed', NOW()),
 (10, 200.00, 'completed', NOW() - INTERVAL '1 day');
+(10, 200.00, 'completed', NOW() - INTERVAL '1 day');
 
 -- Seed order_items
 INSERT INTO order_items (order_id, product_name, quantity, price) VALUES
@@ -39,4 +40,5 @@ INSERT INTO order_items (order_id, product_name, quantity, price) VALUES
 (9, 'Notebook', 5, 11.00),
 (10, 'Pen', 10, 9.00),
 (11, 'Tablet', 1, 170.00),
+(12, 'Webcam', 2, 100.00);
 (12, 'Webcam', 2, 100.00);
